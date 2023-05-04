@@ -1,0 +1,77 @@
+.message {
+  display: flex;
+  justify-content: center;
+}
+.message .container {
+  width: 1200px;
+  margin: 50px;
+}
+.message .container .breadcrumbs {
+  font-weight: 300;
+  font-size: 13px;
+  color: #555;
+}
+.message .container .messages {
+  margin: 30px 0px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 500px;
+}
+.message .container .messages .item {
+  display: flex;
+  gap: 20px;
+  max-width: 600px;
+}
+.message .container .messages .item.owner {
+  flex-direction: row-reverse;
+  align-self: flex-end;
+}
+.message .container .messages .item.owner p {
+  border-radius: 12px 0px 12px 12px;
+  background-color: #1dbf73;
+  color: #fff;
+}
+.message .container .messages .item img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.message .container .messages .item p {
+  padding: 20px;
+  background-color: lightgray;
+  border-radius: 0 12px 12px 12px;
+  color: #666;
+  font-weight: 300;
+}
+.message .container hr {
+  height: 0;
+  border: 0.5px solid rgb(226, 226, 226);
+}
+.message .container .write {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.message .container .write textarea {
+  width: 80%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  resize: none;
+}
+.message .container .write textarea:focus {
+  outline: none;
+}
+.message .container .write button {
+  background-color: #1dbf73;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+}/*# sourceMappingURL=Message.css.map */
